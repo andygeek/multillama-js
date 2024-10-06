@@ -1,0 +1,16 @@
+{
+  "name": "multillama",
+  "version": "0.1.0",
+  "description": "A modular library for connecting to various LLM providers like Ollama and OpenAI",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ollama": "^0.5.9",
+    "openai": "^4.67.1"
+  }
+}
