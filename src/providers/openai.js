@@ -1,7 +1,11 @@
 import OpenAI from 'openai';
-import 'dotenv/config';
 
-const apiKey = process.env.OPENAI_API_KEY;
-const client = new OpenAI({ apiKey });
+const openai = (apiKey) => {
+  if (!apiKey) {
+    throw new Error('API Key is missing. Please provide it as an argument.');
+  }
 
-export default client;
+  return new OpenAI({ apiKey });
+};
+
+export default openai;

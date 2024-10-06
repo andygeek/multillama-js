@@ -1,8 +1,9 @@
 {
   "name": "multillama",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "A modular library for connecting to various LLM providers like Ollama and OpenAI",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
